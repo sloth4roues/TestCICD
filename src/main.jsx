@@ -14,6 +14,7 @@ Sentry.init({
 const container = document.getElementById(“app”);
 const root = createRoot(container);
 root.render(<App />);
+ErrorButton.render(<App />)
 
 // Add this button component to your app to test Sentry's error tracking
 function ErrorButton() {
